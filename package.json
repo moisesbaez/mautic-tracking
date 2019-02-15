@@ -1,0 +1,31 @@
+{
+  "name": "mautic-tracking",
+  "version": "0.9.0",
+  "description": "Tracking tool for Mautic",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moisesbaez/mautic-tracking.git"
+  },
+  "keywords": [
+    "mautic",
+    "tracking",
+    "monitor",
+    "pixel"
+  ],
+  "author": "Moises Baez",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "jest": "^24.1.0"
+  }
+}

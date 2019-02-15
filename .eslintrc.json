@@ -1,0 +1,19 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint-config-airbnb"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "jest"
+  ],
+  "rules": {}
+}
