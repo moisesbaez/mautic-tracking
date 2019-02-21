@@ -1,11 +1,14 @@
 {
   "name": "mautic-tracking",
   "version": "0.9.0",
-  "description": "Tracking tool for Mautic",
-  "main": "index.js",
+  "description": "Tracking tool for Mautic marketing software",
+  "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
-    "test": "npm run test"
+    "clean": "rm -rf lib",
+    "dev": "babel src -w -d lib",
+    "prepublish": "npm run build",
+    "test": "jest --runInBand"
   },
   "repository": {
     "type": "git",
@@ -26,6 +29,10 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.13.0",
     "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
     "jest": "^24.1.0"
   }
 }
