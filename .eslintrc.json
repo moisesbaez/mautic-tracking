@@ -7,7 +7,7 @@
   },
   "parser": "babel-eslint",
   "extends": [
-    "eslint-config-airbnb"
+    "eslint-config-airbnb-base"
   ],
   "parserOptions": {
     "ecmaVersion": 6,

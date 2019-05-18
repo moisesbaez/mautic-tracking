@@ -16,7 +16,7 @@ Initializing Mautic module:
 ```js
 import mautic from 'mautic-tracking';
 
-mautic.intialize('https://my.mautic-installation.com/mtc.js');
+mautic.initialize('https://my.mautic-installation.com/mtc.js');
 ```
 
 ### Send page views:
