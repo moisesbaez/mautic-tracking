@@ -1,6 +1,6 @@
 {
   "name": "mautic-tracking",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Tracking tool for Mautic marketing software",
   "main": "lib/index.js",
   "scripts": {
