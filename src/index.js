@@ -26,7 +26,13 @@ const mautic = {
   },
 
   pageView: (options) => {
+    if (!window.mt) {
+      return console.warn('[mt]', 'Unable to send page view, mautic not initialized'); // eslint-disable-line no-console
+    }
+
     window.mt('send', 'pageview', { ...options });
+
+    return true;
   },
 };
 
