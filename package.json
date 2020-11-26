@@ -7,7 +7,7 @@
     "build": "babel src -d lib",
     "clean": "rm -rf lib",
     "dev": "babel src -w -d lib",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "test": "jest --runInBand"
   },
   "repository": {
